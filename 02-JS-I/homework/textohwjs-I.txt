@@ -1,0 +1,5 @@
+Variables: son espacios que guardan datos para luego ser utilizados.
+Strings: son palabras (texto), se definen siempre entre comillas simples o dobles.
+Funciones (argumentos): objetos para ordenar a hacer algo a una variable.
+Declaraciones: son instrucciones separadas por punto y coma.
+Valores booleanos: son valores que evalúan una condición (verdadero o falso).
