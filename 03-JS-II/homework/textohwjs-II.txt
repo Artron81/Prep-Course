@@ -1,0 +1,4 @@
+for: Es un bucle que repite instrucciones una determinada cantidad de veces.
+&&: operador lógico que evalúa 2 o más expresiones y devolverá true si todas cumplen la misma condición, de no cumplirse alguna o todas, devolverá false.
+||: operador lógico que evalúa 2 o más expresiones y devolverá true si todas o una cumplen la misma condición, en el caso que alguna de las mismas sea falsa, devolverá false.
+!: operador lógico que devolverá el valor booleano opuesto al que se ingresa.
