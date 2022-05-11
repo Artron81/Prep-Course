@@ -1,0 +1,1 @@
+Arrays: contenedor de datos para ser invocados cuando lo necesitemos mediante índices.
