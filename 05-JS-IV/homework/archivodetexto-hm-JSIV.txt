@@ -1,0 +1,5 @@
+Objetos: es un tipo de dato que se utiliza para almacenar ítems (claves-valores) llamados "propiedades".
+Propiedades: son los ítems que están almacenados en un objeto, pueden ser strings, números, o funciones.
+Métodos: son las propiedades que contienen funciones dentro del objeto.
+Bucle for...in: se utiliza para recorrer cada clave-valor del objeto.
+Notación de puntos vs notación de corchetes: se utilizan para acceder a las clave-valor, en general con notación de puntos tiene mejor legibilidad, pero cuando la clave es una variable o contiene un guión se debe usar notación de corchetes, dado que dará undefined o error.
