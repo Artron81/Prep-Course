@@ -22,8 +22,8 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  objeto [property] = null
-   return objeto;
+  objeto[property] = null
+  return objeto;
 }
 
 function invocarMetodo(objeto, metodo) {
@@ -91,12 +91,11 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // // Tu código:
-  if (usuario.password === password){
+  if (usuario["password"] === password) {
     return true;
-  } else if (usuario.password !== password);
+  }
   return false;
 }
-
 
 function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"

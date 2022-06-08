@@ -94,12 +94,12 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
   var suma = 0;
-    for (var i = 0 ; i < resultadosTest.length ; i++) {
-    suma = suma + resultadosTest [i];
-  }
-  var promedio = suma / resultadosTest.length; 
-  {
-  return promedio; 
+  for (var i = 0 ; i < resultadosTest.length ; i++) {
+  suma = suma + resultadosTest [i];
+}
+var promedio = suma / resultadosTest.length; 
+{
+return promedio; 
 }
 }
 
@@ -109,11 +109,11 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var mayor = numeros [0]
-  for (var w = 0 ; w < numeros.length ; w++) {
-   if (numeros [w] > mayor) {
-     mayor = numeros [w];
-   }  
+    var mayor = 0;
+  for (var i = 0 ; i < numeros.length ; i++) {
+  if (numeros [i] > mayor) {
+    mayor = numeros [i]
+  }
   }
   return mayor;
 }
@@ -123,16 +123,15 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  var multiplicación = 1;
-  for (var i = 0 ; i < arguments.length ; i++) {
-    multiplicación = multiplicación * arguments [i];
+  var producto = 1;
+  for (var i = 0; i < arguments.length; i++) {
+    producto = producto * arguments[i];
   }
-    if (arguments.length < 1) {
+  if (arguments.length < 1) {
     return 0;
-  } else {
-    return multiplicación;
+  } 
+  return producto;
   }
-}
 
 
 function cuentoElementos(arreglo){
@@ -165,15 +164,15 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  var numero = n.toString();
+  var numero = n.toString ();
   if (numero [0] === "9") {
     return true;
-  } else {
-    return false;
   }
-}
+  return false;
+  }
 
 
+  
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.

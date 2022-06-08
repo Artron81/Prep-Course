@@ -1,0 +1,2 @@
+prototype: se utiliza para que los objetos puedan compartir métodos y/o propiedades para ahorrar memoria.
+Constructors (de Clases): son plantillas a modo de "modelo" para crear varios objetos sin tener que repetir el procedimiento cada vez.
